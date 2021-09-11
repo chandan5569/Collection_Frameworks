@@ -16,6 +16,11 @@ public class l1 {
 
         //System.out.println(li.get(4));
 
+        for (Integer integer : li) {
+
+            System.out.println(integer);
+        }
+
 
     }
 }
