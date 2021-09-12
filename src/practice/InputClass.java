@@ -8,6 +8,8 @@ public class InputClass {
 
         //Taking input using Scanner class.
 
+        //Basics in Java.
+
         System.out.println("Enter a Number: ");
 
         Scanner x = new Scanner(System.in);    //Using Scanner Class.

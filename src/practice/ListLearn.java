@@ -6,47 +6,47 @@ import java.util.List;
 public class ListLearn {
     public static void main(String[] args) {
 
-//        List<String> li = new ArrayList<>();
+        List<String> li = new ArrayList<>();
 
         //Adding in the List.  ( Normal Adding )
 
         //While adding the indexing starts from 0,1,2,3,4,5,-------n.
 
-//        li.add("chandan");
-//        li.add("pranjan");
-//        li.add("pihu");
-//        li.add("chiku");
-//        li.add("piku");
-//        li.add("minku");
-//        li.add("chinku");
+        li.add("chandan");
+        li.add("pranjan");
+        li.add("pihu");
+        li.add("chiku");
+        li.add("piku");
+        li.add("minku");
+        li.add("chinku");
 
         //Finding the size of List.
 
-      //  System.out.println(li.size());
+        System.out.println(li.size());
 
         //Adding in the List at a specific position, it will push the other element at left by one place.
 
-//        li.add(0,"rajoo");
-//
-//        for(String i: li) {
-//            System.out.println(i);
-//        }
-//
-//        System.out.println("After setting Pams the list is: ");
-//
-//        Set bascially add the item at thye specified location without moving forward in the left.
+        li.add(0,"rajoo");
 
-//        li.set(7,"pams");
+        for(String i: li) {
+            System.out.println(i);
+        }
 
-       // li.remove(0);
+        System.out.println("After setting rekha the list is: ");
 
-        //System.out.println(li.contains("chandan"));   //Contains method contains the boolean value.
+        //Set basically add the item at they specified location without moving forward in the left.
 
-        //System.out.println(li.get(0));
+        li.set(7,"rekha");
 
-//        for(String i: li) {
-//            System.out.println(i);
-//        }
+        li.remove(0);
+
+        System.out.println(li.contains("chandan"));   //Contains method contains the boolean value.
+
+        System.out.println(li.get(0));
+
+        for(String i: li) {
+            System.out.println(i);
+        }
 
         //-------------------------------------------------------------------------------------------------------------------------------------
 
@@ -71,10 +71,10 @@ public class ListLearn {
 
         l1.addAll(l2);
 
-        //System.out.println(l1.indexOf(10));
+        System.out.println(l1.indexOf(10));
 
         System.out.println(l1.containsAll(l2));
 
-        //System.out.println(l1);
+        System.out.println(l1);
     }
 }
